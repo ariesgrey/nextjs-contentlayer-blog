@@ -327,7 +327,7 @@ export const MoonIcon = ({ className, ...rest }) => (
 	</svg>
 );
 
-export const LinkedInIcon = ({ className, ...rest }) => {
+export const LinkedinIcon = ({ className, ...rest }) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -379,7 +379,7 @@ export const TwitterIcon = ({ className, ...rest }) => {
 	);
 };
 
-export const GithubIcon = ({ className, ...rest }) => {
+export const GitHubIcon = ({ className, ...rest }) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
