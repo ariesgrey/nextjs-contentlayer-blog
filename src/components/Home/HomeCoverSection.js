@@ -19,6 +19,7 @@ const HomeCoverSection = ({ blogs }) => {
 					fill
 					className="w-full h-full object-center object-cover rounded-3xl -z-10"
 				/>
+
 				<div className="w-3/4 p-16 flex flex-col items-start justify-center z-0 text-light">
 					<Tag link={`/categories/${blog.tags[0]}`} name={blog.tags[0]} />
 					<Link href={blog.url} className="mt-6">
