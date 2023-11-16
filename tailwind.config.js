@@ -5,6 +5,7 @@ module.exports = {
 		"./src/components/**/*.{js,ts,jsx,tsx,mdx}",
 		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
+	darkMode: "class",
 	theme: {
 		extend: {
 			colors: {
@@ -26,6 +27,10 @@ module.exports = {
 					"0%": { transform: "translateX(100%)" },
 					"100%": { transform: "translateX(-100%)" },
 				},
+			},
+			screens: {
+				sxl: "1180px",
+				xs: "480px",
 			},
 		},
 	},
