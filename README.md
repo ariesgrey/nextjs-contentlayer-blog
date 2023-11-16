@@ -1,6 +1,6 @@
-# Blog Tutorial: Build SEO Optimized Personal Blog with Next.js, Contentlayer, and Tailwind CSS
+# Blog Tutorial: Build an SEO Optimized Personal Blog with Next.js, Tailwind CSS, and Contentlayer
 
-I recreated this blog using Next.js, Contentlayer, Tailwind CSS, and Supabase, following a [tutorial by CodeBucks](https://youtu.be/1QGLHOaRLwM?si=6tpWzArLm0tI5a6U) that I found through freeCodeCamp. This was my first time really using all 4 of these technologies, and I found this tutorial to be extremely useful and worthwhile. I learned a lot in the ways of styling and in the workings of Next.js, and this code will be a wonderful reference to have as I start to utilize these tools in my own projects!
+I recreated this blog using Next.js, Tailwind CSS, Contentlayer, and Supabase, following a [tutorial by CodeBucks](https://youtu.be/1QGLHOaRLwM?si=6tpWzArLm0tI5a6U) that I found through freeCodeCamp. This was my first time really using all 4 of these technologies, and I found this tutorial to be extremely useful and worthwhile. I learned a lot in the ways of styling and in the workings of Next.js, and this code will be a wonderful reference to have as I start to utilize these tools in my own projects!
 
 #### My Deployed Site: https://nextjs-contentlayer-blog-rho.vercel.app/
 
