@@ -6,12 +6,14 @@ import {
 	DribbbleIcon,
 	GitHubIcon,
 	LinkedinIcon,
+	MoonIcon,
 	SunIcon,
 	TwitterIcon,
 } from "../Icons";
 import siteMetaData from "@/src/utils/siteMetaData";
 import { useThemeSwitch } from "../Hooks/useThemeSwitch";
 import { useState } from "react";
+import { cx } from "@/src/utils";
 
 const Header = () => {
 	const [mode, setMode] = useThemeSwitch();
@@ -69,8 +71,17 @@ const Header = () => {
 				<Link href="/contact" className="mx-2">
 					Contact
 				</Link>
-				<button onClick={() => setMode(mode === "light" ? "dark" : "light")}>
-					<SunIcon />
+				<button
+					className={cx(
+						"w-6 h-6 ease ml-2 flex items-center justify-center rounded-full p-1",
+						mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
+					)}
+					onClick={() => setMode(mode === "light" ? "dark" : "light")}>
+					{mode === "light" ? (
+						<MoonIcon className={"fill-dark"} />
+					) : (
+						<SunIcon className={"fill-dark"} />
+					)}
 				</button>
 			</nav>
 
@@ -84,8 +95,17 @@ const Header = () => {
 				<Link href="/contact" className="mx-2">
 					Contact
 				</Link>
-				<button onClick={() => setMode(mode === "light" ? "dark" : "light")}>
-					<SunIcon />
+				<button
+					className={cx(
+						"w-6 h-6 ease ml-2 flex items-center justify-center rounded-full p-1",
+						mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
+					)}
+					onClick={() => setMode(mode === "light" ? "dark" : "light")}>
+					{mode === "light" ? (
+						<MoonIcon className={"fill-dark"} />
+					) : (
+						<SunIcon className={"fill-dark"} />
+					)}
 				</button>
 			</nav>
 			<div className="hidden sm:flex items-center">
